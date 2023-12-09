@@ -321,7 +321,7 @@ export default class AlienStarsScene extends Phaser.Scene {
   }
   spawnstar() {
     const config = {
-      speed: 1,
+      speed: 1.4,
       rotation: 0,
     };
     const star = this.star.get(0, 0, "star", config);
